@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coding Questions API</title>
+    <meta http-equiv="author" content="CodingQuestionsDB">
+    <meta name="description" content="API for fetching coding questions">
+    <meta name="keywords" content="API, coding, questions, algorithms, design systems">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<main>
+    <h1 id="vertical">api</h1>
+    <h1>coding<br>questions</h1>
+    <span id="rect"></span>
+    <a id="contact" href="mailto:stautolab@gmail.com">contact us</a>
+    <a id="contact-mobile" href="mailto:stautolab@gmail.com">contact</a>
+    <p id="intro">Variety of coding questions for your own perusal categorized into two groups: design systems and algorithms.
+        We constantly increase the number of questions.</p>
+    <button id="get-question" onclick="getQuestion()">try first</button>
+    <div id="response-container"></div>
+    <h2 id="docs">documentation</h2>
+    <div id="wrapper">
+        <dl>
+            <dt class="subtitle">Request</dt>
+            <dd>
+                <pre class="background">GET:curl http://codingquestionsdb.com/questions/sample</pre>
+            </dd>
+            <dt class="subtitle">Response</dt>
+            <dd>
+<pre class="background"><code>{
+    title: "Factorial (N)",
+    task: "Write a factorial function that takes a positive integer, N as a parameter and prints the result of N! (N factorial).",
+    input: "A single integer, N (the argument to pass to factorial).",
+    exampleInput: "3",
+    output: "Print a single integer denoting N!.",
+    exampleOutput: "6",
+    constraints: "2<=N<=12 Your submission must contain a recursive function named factorial.",
+    note: "If you fail to use recursion or fail to name your recursive function factorial or Factorial, your answer is not valid.",
+    category: COD
+}</code></pre>
+            </dd>
+        </dl>
+
+        <dl id="call-api">
+            <h3>how to call the api from your javascript, php or python application?</h3>
+            <dt class="subtitle js">JavaScript</dt>
+            <dd>
+<pre class="background"><code>const userAction = async () => { const response = await
+fetch('http://codingquestionsdb.com/questions/sample');
+
+const myJson = await response.json(); //extract JSON from the http
+response // do something with myJson }</code></pre>
+            </dd>
+            <dt class="subtitle">PHP</dt>
+            <dd>
+<pre class="background"><code>$response = file_get_contents('http://codingquestionsdb.com/questions/sample');
+
+$response = json_decode($response); //do something with myJson</code></pre>
+            </dd>
+            <dt class="subtitle">Python</dt>
+            <dd>
+                <pre class="background"><code>resp = requests.get('http://codingquestionsdb.com/questions/sample')</code></pre>
+            </dd>
+        </dl>
+    </div>
+
+    <p id="copyright">&copy 2020 CodingQuestionsDB.</p>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
