@@ -1,2 +1,4 @@
-# codingquestionsdb
-Coding Questions DB Project
+# codingquestionsdb-backend-api
+Coding Questions DB API
+
+API to provide coding questions.
