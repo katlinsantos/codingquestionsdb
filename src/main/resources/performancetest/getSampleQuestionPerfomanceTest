@@ -1,0 +1,186 @@
+"id": "35fa5a2d-223e-48af-b415-a01f61dd01e6",
+	"name": "CodingQuestionsDB",
+	"timestamp": "2021-02-23T10:19:07.274Z",
+	"collection_id": "6eefaed4-4fea-4dde-9d21-ccbac364de2c",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 101,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "20d71cd7-d2c2-4446-9fa3-efc070387a6c",
+			"name": "Get sample question",
+			"url": "http://codingquestionsdb.com/questions/sample",
+			"time": 449,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is 181": true,
+				"Response time is 155": true,
+				"Response time is 156": true,
+				"Response time is 374": true,
+				"Response time is 157": true,
+				"Response time is 182": true,
+				"Response time is 154": true,
+				"Response time is 158": true,
+				"Response time is 199": true,
+				"Response time is 203": true,
+				"Response time is 234": true,
+				"Response time is 192": true,
+				"Response time is 207": true,
+				"Response time is 206": true,
+				"Response time is 277": true,
+				"Response time is 205": true,
+				"Response time is 217": true,
+				"Response time is 193": true,
+				"Response time is 162": true,
+				"Response time is 161": true,
+				"Response time is 174": true,
+				"Response time is 169": true,
+				"Response time is 317": true,
+				"90 percentile response time 199 is lower than 1000, the number of iterations is 100": true
+			},
+			"testPassFailCounts": {
+				"Response time is 181": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 155": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 156": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 374": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 157": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 182": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 154": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 158": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 199": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 203": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 234": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 192": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 207": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 206": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 277": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 205": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 217": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 193": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 162": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 161": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 174": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 169": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is 317": {
+					"pass": 1,
+					"fail": 0
+				},
+				"90 percentile response time 199 is lower than 1000, the number of iterations is 100": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				449
+			],
+			"allTests": [
+				{
+					"Response time is 181": true,
+					"Response time is 155": true,
+					"Response time is 156": true,
+					"Response time is 374": true,
+					"Response time is 157": true,
+					"Response time is 182": true,
+					"Response time is 154": true,
+					"Response time is 158": true,
+					"Response time is 199": true,
+					"Response time is 203": true,
+					"Response time is 234": true,
+					"Response time is 192": true,
+					"Response time is 207": true,
+					"Response time is 206": true,
+					"Response time is 277": true,
+					"Response time is 205": true,
+					"Response time is 217": true,
+					"Response time is 193": true,
+					"Response time is 162": true,
+					"Response time is 161": true,
+					"Response time is 174": true,
+					"Response time is 169": true,
+					"Response time is 317": true,
+					"90 percentile response time 199 is lower than 1000, the number of iterations is 100": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 449,
+	"collection": {
+		"requests": [
+			{
+				"id": "20d71cd7-d2c2-4446-9fa3-efc070387a6c",
+				"method": "GET"
+			}
+		]
+	}
+}
