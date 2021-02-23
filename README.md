@@ -1,4 +1,4 @@
-# codingquestionsdb-backend-api
-Coding Questions DB API
+# Coding Questions DB API
 
-API to provide coding questions.
+http://codingquestionsdb.com/
+
