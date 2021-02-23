@@ -27,12 +27,4 @@ public class QuestionController {
 
         return question;
     }
-
-    /*
-        @CrossOrigin
-        @GetMapping("/{questionId}")
-        public Question findQuestionById(@PathVariable Long questionId){
-            return questionService.findQuestionById(questionId);
-        }
-     */
 }
