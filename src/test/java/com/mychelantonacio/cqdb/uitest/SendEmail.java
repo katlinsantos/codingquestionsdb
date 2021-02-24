@@ -9,7 +9,7 @@ public class SendEmail {
     public static void main(String[] args) throws InterruptedException {
 
         //Set up testing environment
-        System.setProperty("webdriver.chrome.driver","/Users/Kät/Downloads/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:/dev/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://codingquestionsdb.com/");
 
