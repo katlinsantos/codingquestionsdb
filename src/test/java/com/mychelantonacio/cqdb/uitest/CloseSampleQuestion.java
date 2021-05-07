@@ -6,10 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 
 /*
-This test is related to TC001
+This test is related to TC002
  */
 
-public class GetSampleQuestion {
+public class CloseSampleQuestion {
     public static void main(String[] args) throws InterruptedException {
 
         //Set up testing environment
@@ -19,16 +19,14 @@ public class GetSampleQuestion {
         driver.get("http://codingquestionsdb.com/");
 
         //Find Try First button
-        WebElement button = driver.findElement(By.id("get-question"));
+        WebElement tryfirst = driver.findElement(By.id("get-question"));
+        tryfirst.click();
+        Thread.sleep(5000);
 
-        //Test case - get two questions
-        for (int i = 0; i < 2; i++) {
-            button.click();
-            Thread.sleep(10000);
-
-            button.click();
-            Thread.sleep(10000);
-        }
+        //Find Close button
+        WebElement close = driver.findElement(By.id("get-question"));
+        close.click();
+        Thread.sleep(5000);
 
         //Closes Chrome browser
         driver.quit();
